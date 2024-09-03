@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="container">
+        <header>JPG to png converter</header>
+        <form>
+            <div id="select-area">
+                <input type="file" name="file" class="file-input" hidden>
+                <i class="fas ri-file-3-fill"></i>
+                <p>Select Jpg</p>
+            </div>
+            <div class="preview">
+                <img id="file-preview">
+                <i class="ri-delete-bin-5-fill" id="remove-img"></i>
+            </div>
+            <input type="submit" class="btn-convert" value="Convet To PNG">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
